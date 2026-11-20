@@ -1,5 +1,5 @@
 
- // Select DOM elements
+// Select DOM elements
 const form = document.querySelector('#queue-form');
 const codeInput = document.querySelector('#patient-code');
 const serviceSelect = document.querySelector('#service-type');

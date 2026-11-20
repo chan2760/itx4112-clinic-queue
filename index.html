@@ -20,12 +20,7 @@
       <form id="queue-form" class="queue-form">
         <div class="field">
           <label for="patient-code">Patient code</label>
-          <input
-            id="patient-code"
-            type="text"
-            placeholder="Example: P-104"
-            required
-          >
+          <input id="patient-code" type="text" placeholder="Example: P-104" required>
         </div>
 
         <div class="field">
@@ -43,14 +38,12 @@
 
     <section id="queue" aria-live="polite">
       <h2>Waiting queue</h2>
-
       <div id="queue-list">
         <article class="patient-card">
           <div>
             <p class="code">P-101</p>
             <p class="service">General consultation</p>
           </div>
-
           <button type="button" class="served-btn">Served</button>
         </article>
       </div>
